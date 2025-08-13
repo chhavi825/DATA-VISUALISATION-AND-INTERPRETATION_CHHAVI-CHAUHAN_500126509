@@ -21,7 +21,7 @@ Example dataset: 🏅 120 years of Olympic history: athletes and results.
 - !unzip 120-years-of-olympic-history-athletes-and-results.zip
 
 📂 Load the Dataset into Python 
-import pandas as pd
+- import pandas as pd
 df = pd.read_csv('athlete_events.csv')
 df.head()
 
